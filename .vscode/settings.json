@@ -1,0 +1,32 @@
+{
+	"sqltools.connections": [
+		{
+			"mysqlOptions": {
+				"authProtocol": "default"
+			},
+			"previewLimit": 50,
+			"server": "localhost",
+			"port": 3306,
+			"driver": "MySQL",
+			"name": "Localhost",
+			"username": "root",
+			"database": "local",
+			"password": "Heroinemakfud12"
+		},
+		{
+			"pgOptions": {
+				"ssl": {
+					"rejectUnauthorized": false
+				}
+			},
+			"previewLimit": 50,
+			"server": "ec2-44-197-94-126.compute-1.amazonaws.com",
+			"port": 5432,
+			"driver": "PostgreSQL",
+			"name": "Amazon AWS",
+			"database": "dbcetg2fchvopm",
+			"username": "lclptcpvgcumin",
+			"password": "9cdaebd9a6bf429e8f6b096b62e4e8a45e782e39589315bd09082ea2359ae17c"
+		}
+	]
+}
